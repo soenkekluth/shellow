@@ -1,0 +1,10 @@
+/node_modules
+/dist
+/tmp
+/TODO
+/material
+*.map
+yarn-error.log
+.vscode
+.history
+lib
