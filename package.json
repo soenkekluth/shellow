@@ -1,15 +1,17 @@
 {
   "name": "shellow",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "collect and execute shell scripts or everything else with the shellow cli",
   "bin": {
-    "shellow": "./src/index.js"
+    "shellow": "src/index.js"
   },
   "main": "src/index.js",
-  "preferGlobal": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "files":[
+    "src"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/soenkekluth/shellow.git"
